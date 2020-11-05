@@ -1,0 +1,35 @@
+{
+    "name": "karrarjasim/laravel-visites",
+    "type": "package",
+    "description": "A Laravel package to track popularity of entries(by Models) in a website at a certain time.",
+    "keywords": [
+        "JordanMiguel",
+        "laravel-popular",
+        "Laravel",
+        "Popular",
+        "Laravel Popular"
+    ],
+    "homepage": "https://github.com/jordanmiguel/laravel-popular",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "JordanMiguel\\LaravelPopular\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JordanMiguel\\LaravelPopular\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "JordanMiguel\\LaravelPopular\\LaravelPopularServiceProvider"
+          ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
